@@ -1,0 +1,231 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial, verdana, sans-serif;
+}
+
+body{
+    background-color: #F9F6DE;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*///HEADER///*/
+header{
+	background-color: #CC4E00;
+	width: 100%;
+	height: 85px;
+	padding-bottom: 0px;
+	border-bottom: 2px solid #686565;
+
+}
+
+.banner{
+	width: 99vw;
+	height: 100%;
+	background-image: cover;
+	display: block;
+}
+
+
+.logo{
+	width: 200px;
+	float: left;
+	margin-left: 10%;
+}
+
+.logo1{
+	display: flex;
+	height: 80px;
+	margin-top: -10px;
+
+}
+
+.navbar {
+    color: #FC9E1E;
+    min-height: 90px;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+	width: 100%;
+	display: flex;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
+  
+.text {
+    font-size: 1.2em;
+    text-align: center;
+    text-justify:inter-word;
+}
+
+  /*///FIN HEADER///*/
+
+
+  /*///SECCIONES///*/
+
+
+.titulo{
+	font-family: arial, sans-serif;
+	font-weight: bolder;
+	font-size: 35px;
+	margin-bottom: 25px;
+
+}
+
+.titulo h2{
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.sombra:hover {
+    filter: opacity(.5);
+}
+
+
+.back{
+    background-color: #F9EEDE;
+    padding: 3rem;
+    justify-content: center;
+    border-bottom: 2px solid #E7DED0;
+}
+
+.back h1{
+    color: #2C2315;
+    text-align: center;
+    font-family: 'Archivo Black', cursive;
+}
+.back h2{
+    color: #2C2315;
+    text-align: center;
+    font-family: 'Archivo Black', cursive;
+    font-size: 6vw;
+}
+
+
+.back p{
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.centronosotros {
+
+    padding-left: 5rem;
+}
+
+
+h2{
+	font-size: 4vw;
+	font-family: 'Archivo Black', cursive;
+}
+
+.textoredes{
+	color: #CC4E00;
+	justify-content: center;
+	font-size: 3vw;
+	font-family: 'Fredoka One', cursive;
+}
+
+  /*///FIN SECCIONES///*/
+
+
+.boton{
+    
+    background-color:#ffff;
+    color: #545454;
+    padding: 10px 20px;
+    border: 2px 2px solid #BF6000;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.suscripcion {
+	color: #ffff;
+	background-color: #CC4E00;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #686565;
+}
+
+
+.contenedor1, .contenedor2{
+    display: flex;
+    padding-top: -10px;
+    margin-left: 5%;
+    margin-right: auto;
+    
+}
+
+form{
+	margin-left:auto;
+	margin-top: 40px;
+	text-align: left;
+
+}
+
+.newsletterinput{
+	background-color: #CC4E00;
+	border: 1px solid #ffff;
+	border-radius: 30px;
+	height: 33px;
+	margin-top: 10px;
+	padding-left: 25px;
+	font-family: arial, sans-serif;
+	width: 300px;
+
+}
+.label{
+    margin-left: 20px;
+    
+}
+.inputarea{
+	background-color: #CC4E00;
+	color: #ffff;
+	padding-top: 10px;
+	padding-left: 20px;
+	font-size: 20px;
+	border-radius: ;
+}
+
+#botonfondo {
+	background-color: #CC4E00;
+	color: #ffff;
+	border-bottom: 1px solid #ffff;
+}
+
+footer {
+	background-color: #542000;
+	text-align: center;
+	color: #CC4E00;
+	height: 70px;
+	padding-top: 20px;
+}
+
+footer div{
+	color: #CC4E00;
+	text-align: center;
+	font-size: 15px;
+
+}
