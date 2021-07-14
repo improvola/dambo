@@ -26,7 +26,8 @@ header{
 	width: 99vw;
 	height: 100%;
 	background-image: cover;
-	display: block;
+	position: relative;
+
 }
 
 
@@ -47,12 +48,13 @@ header{
     color: #FC9E1E;
     min-height: 90px;
     width: 100%;
-    position: relative;
+    justify-content: end;
 }
 
 nav {
 	width: 100%;
-	display: flex;
+	display: block;
+	justify-content: end;
 }
 
 .row {
@@ -64,6 +66,31 @@ nav {
     margin-left: calc(var(--bs-gutter-x) * -.5);
 }
 
+:root {
+    --warning: #FEBA03;
+    -secondary: #CC4E00;
+}
+
+.btn-warning {
+    background-color: var(--warning);
+    border-color: var(--warning);
+}
+.btn-warning:hover {
+    background-color: #FFCC41;
+    border-color: var(--warning);
+    transition: 0.5s;
+}
+
+
+.btn-secondary {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
+.btn-primary:hover {
+    background-color: #CC4E00;
+    border-color: var(--secondary);
+    transition: 0.5s;
+}
   
 .text {
     font-size: 1.2em;
