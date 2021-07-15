@@ -256,3 +256,24 @@ footer div{
 	font-size: 15px;
 
 }
+
+.icon-arrow-up:before {
+  content: "\1f446";
+}
+
+.justify{
+	justify-content: center;
+	text-align: justify center;
+
+}
+
+.justify p{
+	text-align: justify;
+	justify-content: center;
+	color: #000;
+}
+
+.center1{
+	text-align: center;
+}
+
